@@ -8,12 +8,13 @@
 
     <include>./colors.xml</include>
     <include>./font.xml</include>
+    <include>./languages.xml</include>
     <include>./system/metadata/_default.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
-        <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
-        <syslogoColor>./system/logos/system-logo-color/${system.theme}.svg</syslogoColor>
+        <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
+        <syslogoColor>./system/logos/syslogocolor/${system.theme}.svg</syslogoColor>
     </variables>
 
     <aspectRatio name="4:3">
@@ -173,7 +174,6 @@
             <size>${ratesize}</size>
             <interpolation>nearest</interpolation>
             <color>${mainFontColor}</color>
-            <visible>${fontvis}</visible>
             <filledPath>./assets/images/rating_filled.svg</filledPath>
             <unfilledPath>./assets/images/rating_empty.svg</unfilledPath>
         </rating>
@@ -654,7 +654,7 @@
                 <origin>1 0</origin>
             </text>
             <text name="name2">
-                <text>System Title:</text>
+                <text>${langLabelSysName}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>${mainFontSize}</fontSize>
@@ -675,7 +675,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="release2">
-                <text>Released:</text>
+                <text>${langLabelReleasedate}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>${mainFontSize}</fontSize>
@@ -696,7 +696,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="manu2">
-                <text>Manufactured by:</text>
+                <text>${langLabelManufacturer}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>${mainFontSize}</fontSize>
@@ -744,7 +744,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="publisher2">
-                <text>Publisher:</text>
+                <text>${langLabelPublisher}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>
@@ -765,7 +765,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="developer2">
-                <text>Developer:</text>
+                <text>${langLabelDeveloper}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>
@@ -786,7 +786,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="genre2">
-                <text>Genre:</text>
+                <text>${langLabelGenre}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>
@@ -807,7 +807,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="players2">
-                <text>Number of Players:</text>
+                <text>${langLabelPlayers}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>
@@ -818,6 +818,7 @@
             <datetime name="release1">
                 <metadata>releasedate</metadata>
                 <fontPath>${mainFont}</fontPath>
+                <format>%Y</format>
                 <fontSize>0.0275</fontSize>
                 <color>${mainFontColor}</color>
                 <letterCase>capitalize</letterCase>
@@ -828,7 +829,7 @@
                 <origin>0 0</origin>
             </datetime>
             <text name="release2">
-                <text>Released:</text>
+                <text>${langLabelReleasedate}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>
@@ -837,7 +838,7 @@
                 <origin>0 0</origin>
             </text>
             <text name="rating">
-                <text>Rating:</text>
+                <text>${langLabelRating}:</text>
                 <metadataElement>true</metadataElement>
                 <fontPath>${secondFont}</fontPath>
                 <fontSize>0.03</fontSize>

@@ -29,7 +29,6 @@
                 <sysgamelistrate>0.81 0.7525</sysgamelistrate>
                 <ratesize>0.08 0.025</ratesize>
                 <gamedescpos>0.81 0.04</gamedescpos>
-                <fontvis>true</fontvis>
             </variables>
         </fontSize>
         <fontSize name="large">
@@ -49,7 +48,7 @@
                 <sysgamelistdate>0.26 0.725</sysgamelistdate>
                 <sysgamedate>0.125 0.725</sysgamedate>
                 <sysgamecount>0.875 0.725</sysgamecount>
-                <sysgamerate>0.825 0.735</sysgamerate>
+                <sysgamerate>1.825 0.735</sysgamerate>
                 <sysgamelistrate>0.81 0.735</sysgamelistrate>
                 <ratesize>0.08 0.035</ratesize>
                 <gamedescpos>0.81 0.04</gamedescpos>
@@ -59,22 +58,22 @@
 
         <fontSize name="x-large">
             <variables>
-                <helpFontSize>0.045</helpFontSize>
-                <helppos>.01 0.9475</helppos>
+                <helpFontSize>0.0415</helpFontSize>
+                <helppos>.005 0.9475</helppos>
                 <mainFontSize>0.04</mainFontSize>
                 <descsize>0.04</descsize>
-                <carbacksize>1 2</carbacksize>
+                <carbacksize>1.1 2</carbacksize>
                 <carbacktoppos>0.5 1.1275</carbacktoppos>
                 <carbackbotpos>0.5 .5725</carbackbotpos>
                 <carinnertoppos>0.5 0.925</carinnertoppos>
                 <carinnerbotpos>0.5 0.775</carinnerbotpos>
                 <infosize>0.05</infosize>
                 <sysgamename>0.515 0.72</sysgamename>
-                <sysgamenamesize>0.625 0.06</sysgamenamesize>
+                <sysgamenamesize>0.6 0.06</sysgamenamesize>
                 <sysgamelistdate>0.125 0.72</sysgamelistdate>
                 <sysgamedate>0.1 0.72</sysgamedate>
                 <sysgamecount>0.875 0.72</sysgamecount>
-                <sysgamerate>0.825 0.73</sysgamerate>
+                <sysgamerate>1.825 0.73</sysgamerate>
                 <sysgamelistrate>0.81 0.73</sysgamelistrate>
                 <ratesize>0.08 0.04</ratesize>
                 <gamedescpos>0.81 0.04</gamedescpos>
